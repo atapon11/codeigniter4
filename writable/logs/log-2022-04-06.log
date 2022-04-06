@@ -1,0 +1,30 @@
+CRITICAL - 2022-04-06 06:52:23 --> Invalid file: addname.php
+#0 C:\xampp\htdocs\ci\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('addname.php')
+#1 C:\xampp\htdocs\ci\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('addname', Array, true)
+#2 C:\xampp\htdocs\ci\app\Controllers\NamesCrud.php(15): view('addname')
+#3 C:\xampp\htdocs\ci\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\NamesCrud->create()
+#4 C:\xampp\htdocs\ci\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NamesCrud))
+#5 C:\xampp\htdocs\ci\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-06 06:52:33 --> Invalid file: addname.php
+#0 C:\xampp\htdocs\ci\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('addname.php')
+#1 C:\xampp\htdocs\ci\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('addname', Array, true)
+#2 C:\xampp\htdocs\ci\app\Controllers\NamesCrud.php(15): view('addname')
+#3 C:\xampp\htdocs\ci\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\NamesCrud->create()
+#4 C:\xampp\htdocs\ci\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NamesCrud))
+#5 C:\xampp\htdocs\ci\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-06 07:07:56 --> Invalid file: addname.php
+#0 C:\xampp\htdocs\ci\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('addname.php')
+#1 C:\xampp\htdocs\ci\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('addname', Array, true)
+#2 C:\xampp\htdocs\ci\app\Controllers\NamesCrud.php(15): view('addname')
+#3 C:\xampp\htdocs\ci\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\NamesCrud->create()
+#4 C:\xampp\htdocs\ci\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NamesCrud))
+#5 C:\xampp\htdocs\ci\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

@@ -1,0 +1,10 @@
+CRITICAL - 2022-03-30 23:03:51 --> Invalid file: namelist.php
+#0 C:\Users\User\Desktop\ci5-crud\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('namelist.php')
+#1 C:\Users\User\Desktop\ci5-crud\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('namelist', Array, true)
+#2 C:\Users\User\Desktop\ci5-crud\app\Controllers\NamesCrud.php(10): view('namelist', Array)
+#3 C:\Users\User\Desktop\ci5-crud\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\NamesCrud->index()
+#4 C:\Users\User\Desktop\ci5-crud\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NamesCrud))
+#5 C:\Users\User\Desktop\ci5-crud\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\User\Desktop\ci5-crud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\User\Desktop\ci5-crud\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\User\\D...')
+#8 {main}
